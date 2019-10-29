@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        body{
+            text-align: center;
+            background-color: lightgray;
+        }
+    .parent-container{
+        display:flex;
+        flex-direction: column;
+        width: 800px;
+        margin:0 auto
+        
+        
+    }
+
+    .first-section{
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .second-section{
+        display: flex;
+        flex-direction: column;
+
+    }
+    #first-subsection{
+        display: flex;
+        flex-direction: inline;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .logo{
+        width: 300px; 
+        height: 300px;
+          
+    }
+
+    .second-logo{
+        width: 100px;
+        height: 100px;
+    }
+    h2{
+        color: purple;
+        font-size: 80px;
+        font-weight: bolder;
+
+    }
+    p{
+        letter-spacing: 3px;
+        font-size: 30px;
+        
+
+    }
+    
+    
+    
+    </style>
+</head>
+<body>
+   <div class="parent-container">
+    <section class="first-section">
+        <div><img class="logo" src="asset/Techsters Logo.jpg" alt="this is the logo"></div>
+<h2>we are training 5 million women to code by 2030</h2>
+<p>Empowering women with digital<br> skills for future work</p>
+    </section>
+
+    <section class="second-section">
+        <div id="first-subsection">
+            <img src="asset/tech interview.jpg" alt="Tech interview">
+            <img class="logo second-logo" src="asset/Techsters Logo.jpg" alt="logo">
+        </div>
+        <div id="second-subsection">
+            <img src="asset/website.jpg" alt="web url">
+        </div>
+    </section>
+   </div>
+</body>
+</html> 
